@@ -6,6 +6,10 @@ const monthNames = ["Enero","Febrero","Marzo","Abril","Mayo","Junio","julio","Ju
 let monthCounter = 8;
 let currenDate = new Date('');
 
+//INSERTAR PRIMERA FILA:
+
+
+
 function addMonth(){
     let monthElement = document.createElement('div');
     monthElement.classList.toggle('month');
@@ -15,6 +19,7 @@ function addMonth(){
 
     let daysElement = document.createElement('div');
     daysElement.classList.toggle('days');
+u
 
     daysElement.textContent = `
     <div class="day">L</div>
